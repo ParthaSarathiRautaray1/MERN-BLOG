@@ -39,7 +39,7 @@ export default function Header() {
             </Button>
 
             <Link to='/sign-in'>
-                <Button gradientDuoTone="cyanToBlue">Sign in</Button>  
+                <Button gradientDuoTone="cyanToBlue" outline >Sign in</Button>  
             </Link>
 
             <Navbar.Toggle />
@@ -47,7 +47,6 @@ export default function Header() {
         </div>
 
         {/* NAV BARS LINKS TO ALL ROUTE */}
-        
                 <Navbar.Collapse>
                     <Navbar.Link active={path === "/"} as={'div'}>
                         <Link to='/'>
